@@ -15,14 +15,33 @@
   <body>
     <div class="container"></div>
     <header style="background-color: cornflowerblue">
-      <h1 class="text-center">Tercera pre entrega E.Vitalis</h1>
+      <h1 class="text-center">Proyecto Final E.Vitalis</h1>
+      <h2 style="text-align: center">MI ECOMMERCE</h2>
     </header>
-    <section>
-      <h3>SUSCRIBETE</h3>
-      <form id="formulario">
-        <!-- aca voy a poner mi formulario -->
-      </form>
-    </section>
+    <div>
+      <b><i style="font-size: 20px">Filtra tus libros por precio!!</i></b>
+    </div>
+    <div>
+      <label for="min">Min $</label>
+      <input type="number" name="min" id="min" />
+      <label for="max">
+        Máx $
+
+        <input type="number" name="max" id="max" />
+      </label>
+      <label>
+        <input
+          type="submit"
+          value="filtrar"
+          class="btn btn-danger"
+          id="filtro"
+        />
+      </label>
+      <label>
+        <input type="submit" value="borrar" class="btn btn-dark" id="borro" />
+      </label>
+    </div>
+
     <main>
       <section id="mislibros" class="row">
         <!-- aqui mis libros -->
@@ -57,9 +76,9 @@
           <div class="modal-dialog modal-lg">
             <div class="modal-content">
               <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">
+                <h3 class="modal-title fs-5" id="exampleModalLabel">
                   MI CARRITO
-                </h1>
+                </h3>
               </div>
 
               <div class="modal-footer">
@@ -83,10 +102,15 @@
                 >
                   Close
                 </button>
+                <button id="btn-finalizar-compra">Finalizar compra</button>
               </div>
             </div>
           </div>
         </div>
+      </section>
+      <section style="background-color: burlywood">
+        <h2 style="font-size: 20px">Cotizacion del dolar blue</h2>
+        <div id="formulario"></div>
       </section>
     </main>
     <script
@@ -94,6 +118,7 @@
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="libros.js"></script>
     <script src="logica.js"></script>
   </body>

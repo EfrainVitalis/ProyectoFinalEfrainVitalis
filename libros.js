@@ -4,7 +4,7 @@ const libros = [
     introduccion: "Descubro y me sorprendo. El conejo y sus amigos",
     genero: "Infantil",
     codigo: "001",
-    precio: 600,
+    precio: 6550,
     cantidad: 1,
     image:
       "https://www.bookshop.com.uy/media/catalog/product/cache/53c38e0c7a2c0ce2aff344af94a67178/d/e/descubro-y-me-sorprendo-el-conejo-y-sus-amigos.jpg",
@@ -15,7 +15,7 @@ const libros = [
     introduccion:
       "Charuca nos trae un plan para convertirnos en nuestras propias jefas",
     codigo: "002",
-    precio: 1120,
+    precio: 11120,
     cantidad: 1,
     image:
       "https://www.bookshop.com.uy/media/catalog/product/cache/53c38e0c7a2c0ce2aff344af94a67178/j/e/jefa-de-tu-vida_1.jpg",
@@ -27,7 +27,7 @@ const libros = [
     introduccion:
       "El esperado regreso del autor del best seller internacional Viajo sola con una impactante precuela protagonizada por los inspectores Krüger y Munch.",
     codigo: "003",
-    precio: 1000,
+    precio: 10000,
     cantidad: 1,
     image:
       "https://www.bookshop.com.uy/media/catalog/product/cache/53c38e0c7a2c0ce2aff344af94a67178/e/l/el-lobo.jpg",
@@ -39,7 +39,7 @@ const libros = [
     introduccion:
       "La biografía definitiva de Gustavo Cerati, uno de los músicos argentinos de mayor trascendencia internacional",
     codigo: "004",
-    precio: 1230,
+    precio: 14230,
     cantidad: 1,
     image:
       "https://www.bookshop.com.uy/media/catalog/product/cache/53c38e0c7a2c0ce2aff344af94a67178/a/l/algun-tiempo-atras-la-vida-de-gustavo-cerati_1.jpg",
@@ -50,7 +50,7 @@ const libros = [
     introduccion:
       "La novela que recrea, en el año de su beatificación, la apasionante vida del primer obispo de Montevideo",
     codigo: "005",
-    precio: 1320,
+    precio: 13200,
     cantidad: 1,
     image:
       "https://www.bookshop.com.uy/media/catalog/product/cache/53c38e0c7a2c0ce2aff344af94a67178/p/o/portada_don-jacinto-vera-el-misionero-santo_laura-alvarez-goyoaga_202305041517.jpg",
@@ -60,7 +60,7 @@ const libros = [
     titulo: "El carnicero y el pájaro",
     introduccion: "Nadie conoce a un asesino mejor que sus víctimas",
     codigo: "006",
-    precio: 1290,
+    precio: 16290,
     cantidad: 1,
     image:
       "https://www.bookshop.com.uy/media/catalog/product/cache/53c38e0c7a2c0ce2aff344af94a67178/e/l/el-carnicero-y-el-pajaro-el-carnicero-y-el-pajaro.jpg",
@@ -70,7 +70,7 @@ const libros = [
     titulo: "No me gusta el fútbol",
     introduccion: "Un libro para divertirse y reflexionar al mismo tiempo",
     codigo: "007",
-    precio: 690,
+    precio: 8690,
     cantidad: 1,
     image:
       "https://www.bookshop.com.uy/media/catalog/product/cache/53c38e0c7a2c0ce2aff344af94a67178/p/o/portada_no-me-gusta-el-futbol_daniel-baldi_202306011501.jpg",
@@ -81,7 +81,7 @@ const libros = [
     introduccion:
       "¿Lograrán Los Compas vencer al faraón Krueltophis y volver de Egipto sanos y salvos?",
     codigo: "008",
-    precio: 890,
+    precio: 13000,
     cantidad: 1,
     image:
       "https://www.bookshop.com.uy/media/catalog/product/cache/53c38e0c7a2c0ce2aff344af94a67178/2/5/2525_1_1.jpg",
